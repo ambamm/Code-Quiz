@@ -24,25 +24,12 @@ THEN I can save my initials and score
 
 
 
-
-Test questions:
-    Which language is the skelaton for the web?
-        a
-        b
-        c
-        d
-    What langues is "dynamic"?
-        a
-        b
-        c
-        d
-    What language specifies groups of styles? applied to particular elements on the web?
-        a
-        b
-        c
-        d
-     What API 
-
+<div> to hold the quiz
+<button> to submit the quiz
+<div> for the timer interval 
+<div> to display the results 
      
 
+Come up with a way to show first question, their choices and the 4loops that show questions and choices stops at the click of a button and them moves on. 
 
+Local storage: FInput, they need their initials with a click of submit and retrieve what they put in there and with their score, put in local storage. 
