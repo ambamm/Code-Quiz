@@ -76,7 +76,7 @@ function startQuiz () {
 
 
 
-
+c
 function tiktok(){
     time--;
     timeEl.textContent = time;
