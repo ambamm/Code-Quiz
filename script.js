@@ -9,7 +9,7 @@ var resultsEl = document.querySelector("results");
 var questionIndex = 0;
 var choicesEl = document.getElementById("choices");
 var intervalId;
-var time = 60;
+var time = 5;
 
 //increment and decrement functions?
 
@@ -18,7 +18,7 @@ var time = 60;
 var questions = [
   //array of objects
   {
-    question: "What is JavaScript?", //objects
+    question: "What is JavaScript?", 
     choices: [
       "Building dynamic pages",
       "Sipping coffee while writing code",
@@ -29,32 +29,32 @@ var questions = [
   },
   {
     question: "What is CSS in programing?",
-    choices: {
-      quesA: "Building Case Studies in programing",
-      quesB: "Cascading Sigma Styles",
-      quesC: "A backend language used to style the frontend layout",
-      quesD: "Styles the layout of an HTML page",
-    },
+    choices: [
+       "Building Case Studies in programing",
+       "Cascading Sigma Styles",
+      "A backend language used to style the frontend layout",
+       "Styles the layout of an HTML page",
+    ],
     answer: "quesA",
   },
   {
     question: "A web API can do the following:",
-    choices: {
-      quesA: "Extend functionality of the browser",
-      quesB: "Abolish Programing Interfaces",
-      quesC: "Prevent cyber hackers from hacking",
-      quesD: "Connect users to local 404 hosts",
-    },
+    choices: [
+       "Extend functionality of the browser",
+       "Abolish Programing Interfaces",
+       "Prevent cyber hackers from hacking",
+       "Connect users to local 404 hosts",
+    ],
     answer: "quesA",
   },
   {
     question: "DOM methods are:", // array of questions
-    choices: {
-      quesA: "Building dynamic pages",
-      quesB: "Properties of CSS you perform in HTML",
-      quesC: "Actions you can perform on HTML Elements",
-      quesD: "An aspect of the terminal that Dominates the HTML in Javascript",
-    },
+    choices: [
+       "Building dynamic pages",
+       "Properties of CSS you perform in HTML",
+       "Actions you can perform on HTML Elements",
+      "An aspect of the terminal that Dominates the HTML in Javascript",
+    ],
     answer: "quesA",
   },
 ];
@@ -62,6 +62,8 @@ var questions = [
 // variables
 
 //eventlist
+
+
 function startQuiz() {
   startEl.classList.add("hide");
   questionEl.classList.remove("hide");
